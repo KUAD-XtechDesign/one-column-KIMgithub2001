@@ -27,7 +27,7 @@ img{
 }
 
 /* 閉じるボタンのデザイン追加 */
-.close_button{
+.closebtn {
   display: inline-block;
   padding: 10px;
   margin: 10px 0;
@@ -38,7 +38,7 @@ img{
 }
 
 /* じわりと変わるように追加 0.5秒で変化　*/
-.img_button{
+.img_button{ 
   transition: 0.5s all;
   cursor: pointer;
 }
