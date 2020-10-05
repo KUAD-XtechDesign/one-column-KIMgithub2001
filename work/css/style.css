@@ -4,7 +4,7 @@
 
 body {
    background-image: url(../images/space_web.png);
-   background-color: lightgray;
+   background-color: #333333;
    background-size: cover;
    background-position: center; 
 }
@@ -14,18 +14,12 @@ body {
 }
 
 .head {
-   margin-top: 6rem;
-   font-size: 6rem;
+   margin-top: 3rem;
+   font-size: 5rem;
    color: white;
    text-align: center;
 }
 
-.sub_head {
-   margin-top: 0%;
-   font-size: 2rem;
-   color: white;
-   text-align: center;
-}
 
 footer {
    color: white;
@@ -34,16 +28,9 @@ footer {
 }
 
 h2 {
-   cursor: pointer;
    color: white;
-   font-size: 4rem;
    text-align: center;
-}
-
-h3 {
-   text-align: center;
-   color: white;
-   font-size: 1rem;
+   font-size: 2rem;
 }
 
 .close_btn {
@@ -52,16 +39,12 @@ h3 {
    padding: 10px;
    margin: 10px 0;
    border-radius: 12px;
-   background-color:darkgrey;
+   background-color: lightgray;
    color: white;
    position: absolute;
    right: 30px;
    top: 30px;
    transition: 0.5s all;
-}
-
-button {
-   
 }
 
 .close_btn:hover {
@@ -72,9 +55,20 @@ button {
    text-align: center;
    width: 80%;
    padding: 10px;
+   color: white;
+   font-size: 16px;
+   margin: auto;
+}
+
+.content {
+   display: none;
+   padding: 30px;
 }
 
 .txt_btn {
+   text-align: center;
+   color: white;
+   font-size: 3rem;
    transition: 0.5s all;
    cursor: pointer;
    max-width: 900px;
